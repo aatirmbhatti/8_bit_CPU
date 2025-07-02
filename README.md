@@ -1,6 +1,6 @@
 
 <h1 align="center"> 8-bit CPU | Logisim</h1>
-<h1 align="left" style="font-family: Arial, sans-serif; font-size: 20px; color: lightblue;">
+<h1 align="left" style="font-family: Arial, sans-serif; font-size: 5px; color: lightblue;">
   Aatir Bhatti | Joel Jardines | Luis Lopez
 </h1>
 
