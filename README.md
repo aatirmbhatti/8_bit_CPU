@@ -1,4 +1,4 @@
-## 📦 Features
+##  Features
 
 - 8-bit data width  
 - Custom instruction set  
