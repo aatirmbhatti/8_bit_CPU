@@ -1,10 +1,13 @@
+## 📦 Features
 
-<h1 align="center">🧠 8-bit CPU in Logisim</h1>
-<h3 align="center"><em>A Logisim-based processor simulation with custom ALU, RAM, ROM, and control unit</em></h3>
+- 8-bit data width  
+- Custom instruction set  
+- 4 General Purpose Registers  
+- ALU supporting arithmetic & logic operations  
+- ROM-based instruction memory  
+- RAM for data storage  
+- Program counter and control unit  
+- Logisim-compatible design  
+- Step-by-step execution visualization  
 
-<h2>📦 Features</h2>
-<ul>
-  <li>8-bit data width</li>
-  <li>Custom instruction set</li>
-  <li>4 General Purpose Registers</li>
-</ul>
+---
