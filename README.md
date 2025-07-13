@@ -1,9 +1,12 @@
 
 <h1 align="center"> 8-bit CPU | Logisim</h1>
-<h1 align="left" style="font-family: Arial, sans-serif; font-size: 5px; color: lightblue;">
+<h1 align="ce" style="font-family: Arial, sans-serif; font-size: 20px; color: lightblue;">
   Aatir Bhatti | Joel Jardines | Luis Lopez
 </h1>
 
+<p align="center">
+  <img src="CPU.webp" alt="CPU Diagram" width="600"/>
+</p>
 
 
 <h1 align="left" style="font-family: Arial, sans-serif; font-size: 20px; color: lightgreen;">
@@ -13,6 +16,7 @@
 - 8-bit data width  
 - Custom instruction set  
 - 4 General Purpose Registers  
+- Control Unit to synthesize control signals
 - ALU supporting arithmetic & logic operations  
 - ROM-based instruction memory  
 - RAM for data storage  
@@ -97,6 +101,11 @@
 <h1 align="left" style="font-family: Arial, sans-serif; font-size: 20px; color: lightgreen;">
   Arithmetic Control Unit
 </h1>
+
+
+  <p align="center">
+  <img src = ALU_C.png alt="ALU Diagram" width="1000"/>
+</p>
 - The 2 bits referred as ALUOp from the control signal and the function bits determined the arithmetic operation the ALU will do.
 
 - ALU Control Table:
@@ -200,7 +209,7 @@
 <hr style="height:3px; background-color: white; border:none;"/>
 
 - **JUMP R2 R3**
-- Moves the PC counter to the value stored in R2
+- Moves the PC counter to the value stored in R2 when R3 is non-zero
 - Intruction does nothing if value in R3 is zero.
 - Acts like a for-loop where the value in R3 can be used as number of iterations, and within the jump address you can decrement the value in R3
 
@@ -214,5 +223,11 @@
 
 
 <h1 align="left" style="font-family: Arial, sans-serif; font-size: 20px; color: lightgreen;">
-  Logisim file
+  Testing the CPU 
 </h1>
+
+
+  <p align="center">
+  <img src = Hi_print.gif alt="ALU Diagram" width="1000"/>
+</p>
+
